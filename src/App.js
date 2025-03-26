@@ -8,7 +8,7 @@ const List = ({list, addNodeToList,deleteNodeFromList})=>{
   return <div className="container">
     {list.map((node)=>(
       <div key={node.id}>
-        {node?.isFolder&&(<span onClick={()=>setIsExpanded((prev)=>({
+        {node?.istaskComplete&&(<span onClick={()=>setIsExpanded((prev)=>({
           ...prev,
           [node.name]:!prev[node.name]
         }))

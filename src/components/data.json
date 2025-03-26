@@ -1,11 +1,11 @@
 [{
     "id": "1",
-    "name": "public" ,
+    "name": "Office Task 1" ,
     "isFolder": true ,
     "children": [
         {
             "id": "2",
-            "name": "index.html",
+            "name": "task 1  asas ",
             "isFolder": false 
         }
     ]
@@ -14,28 +14,28 @@
 
 {
     "id": "3",
-    "name": "Src",
-    "isFolder": true ,
+    "name": "Home task",
+    "istaskComplete": true ,
     "children": [
         {
             "id": "4",
-            "name": "Components",
-            "isFolder": true ,
+            "name": "task 1",
+            "istaskComplete": true ,
             "children": [
                 {
                     "id": "5",
-                    "name": "index.js",
-                    "isFolder": false 
+                    "name": "task 2",
+                    "istaskComplete": false 
                 },
                 {   
                     "id": "6",
-                    "name": "data.json",
-                    "isFolder": false 
+                    "name": "task 2",
+                    "istaskComplete": false 
                 },
                 {
                     "id": "7",
-                    "name": "App.js",
-                    "isFolder": false 
+                    "name": "task 3",
+                    "istaskComplete": false 
                 }
             ]
         }
@@ -43,13 +43,13 @@
 },
 {
     "id": "8",
-    "name": "package.json",
-    "isFolder": true  ,
+    "name": "other task(personal task) ",
+    "istaskComplete": true  ,
     "children": [
         {
             "id": "9",
             "name": "package-lock.json",
-            "isFolder": false 
+            "istaskComplete": false 
         }
     ]
 
