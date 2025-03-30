@@ -83,8 +83,11 @@ export default function App(){
 
   return(
     <div className="App">
-      <h1>File and Folder explorer</h1>
+      <h1>Data Query Dashboard</h1>
+      <input type="text"/>      
       <List list={data} addNodeToList={addNodeToList}deleteNodeFromList={deleteNodeFromList}/>
     </div>
+    
   )
+  
 } 

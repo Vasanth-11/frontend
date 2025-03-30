@@ -1,11 +1,11 @@
 [{
     "id": "1",
-    "name": "Office Task 1" ,
+    "name": "Query History " ,
     "isFolder": true ,
     "children": [
         {
             "id": "2",
-            "name": "task 1  asas ",
+            "name": "Query 1   ",
             "isFolder": false 
         }
     ]
@@ -14,12 +14,12 @@
 
 {
     "id": "3",
-    "name": "Home task",
+    "name": "Query 1",
     "istaskComplete": true ,
     "children": [
         {
             "id": "4",
-            "name": "task 1",
+            "name": "Query 2",
             "istaskComplete": true ,
             "children": [
                 {
@@ -43,7 +43,7 @@
 },
 {
     "id": "8",
-    "name": "other task(personal task) ",
+    "name": "other Query(Queries) ",
     "istaskComplete": true  ,
     "children": [
         {
